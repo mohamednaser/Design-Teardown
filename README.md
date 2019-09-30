@@ -18,6 +18,7 @@ This project was executed by the duo of :
 - Flex & Grids
 - FontAwsome v5.11.2
 - MarkDown Syntax
+- Gulp
 
 ## Done Work
 
