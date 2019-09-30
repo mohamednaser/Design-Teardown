@@ -39,5 +39,11 @@
 /* MemberShip div  */
 
 .membership-div {
-  border: 0,5px solid green;
+  border: 0, 5px solid green;
+}
+
+/* latest articles section  */
+
+.latest-posts-div {
+  display: flex;
 }
