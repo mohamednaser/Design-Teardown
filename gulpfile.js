@@ -8,5 +8,5 @@ gulp.task("stylee", function(){
 });
 
 gulp.task('watch' , function(){
-    gulp.watch('src/css/*.css' , ['stylee']);
+    gulp.watch('src/css/*.css' , gulp.series('stylee'));
 });
