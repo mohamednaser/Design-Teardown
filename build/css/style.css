@@ -15,8 +15,8 @@
 }
 
 .nav-item {
-  height: 80%;
-  margin: auto auto;
+  height: 100%;
+  margin: 0.1px auto;
   width: 100%;
   text-align: center;
 }
@@ -25,12 +25,19 @@
 
 .latest-articles {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   height: 600px;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .latest-articles-item {
-  width: 50%;
+  width: 49.5%;
   height: 50%;
+}
+
+/* MemberShip div  */
+
+.membership-div {
+  border: 0,5px solid green;
 }
