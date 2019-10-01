@@ -1,7 +1,7 @@
 /* General rules */
 
 * {
-  border: 0.5px solid gray;
+  /* border: 0.5px solid gray; */
   background: #d33a2c;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
@@ -12,22 +12,25 @@
   display: flex;
   justify-content: space-between;
   align-content: space-between;
-  height: 200px;
+  height: 100px;
+  background-color: gray;
 }
 
 .nav-item {
-  height: 100%;
-  margin: 0.1px auto;
   width: 100%;
   text-align: center;
+  background: gray;
 }
 
-.smashing-header-logo {
-  width: 100%;
-  padding-top: 2%;
-  padding-right: 1%;
-  border: none;
+.nav-item h2{
+  background-color: gray;
 }
+
+.nav-bar-item-title {
+  height: 100%;
+  padding-top: 5%;
+}
+
 /* Latest articles */
 
 .latest-articles {
