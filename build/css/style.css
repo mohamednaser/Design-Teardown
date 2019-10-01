@@ -13,10 +13,10 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-line-pack: justify;
-      align-content: space-between;
+  align-content: space-between;
   height: 100px;
   background-color: gray;
 }
@@ -29,11 +29,7 @@
 
 .nav-item h2 {
   background-color: gray;
-}
-
-.nav-bar-item-title {
-  height: 100%;
-  padding-top: 5%;
+  display: block;
 }
 
 /* Latest articles */
@@ -44,12 +40,12 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   height: 600px;
   width: 100%;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .latest-articles-item {
@@ -196,10 +192,10 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: wrap;
-      flex-flow: wrap;
+  flex-flow: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 60%;
   margin: auto;
 }
