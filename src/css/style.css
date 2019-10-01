@@ -1,8 +1,8 @@
 /* General rules */
 
 * {
-  border: 1px solid red;
-  background: white;
+  border: 0.5px solid gray;
+  background: #d33a2c;
 }
 
 /* Nav-bar */
@@ -165,4 +165,17 @@
   margin: auto;
   width: 50%;
   background-color: aqua;
+}
+
+/* start footer section  */
+.footer__topics__list {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+}
+
+.footer__links {
+  display: flex;
 }
