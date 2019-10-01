@@ -232,6 +232,12 @@ lowest => #d3d3d3
   background-color: white;
 }
 
+/* footer span */
+
+footer span {
+  background-color: #adadad;
+}
+
 /* Ethics & Privacy */
 
 .ethics-privacy {
@@ -470,10 +476,44 @@ lowest => #d3d3d3
   display: flex;
   flex-flow: wrap;
   justify-content: center;
-  width: 60%;
+  width: 75%;
   margin: auto;
+  height: 500px;
 }
 
 .footer__links {
   display: flex;
+}
+
+footer ul {
+  background-color: #adadad;
+  list-style: circle;
+}
+
+.footer__topics__list ul {
+  background-color: #adadad;
+}
+
+.footer__topics__list a {
+  text-decoration: none;
+  background-color: #adadad;
+  color: white;
+  padding: none;
+}
+
+.footer__topics__list li {
+  padding: 0.01% 1.5%;
+  background-color: #adadad;
+}
+
+.browse-all-articles {
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  padding: 3%;
+}
+
+footer {
+  background-color: #adadad;
 }

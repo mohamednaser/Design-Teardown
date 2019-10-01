@@ -5,7 +5,7 @@
   background: #eee;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* colors:
@@ -21,10 +21,10 @@ lowest => #d3d3d3
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-line-pack: justify;
-      align-content: space-between;
+  align-content: space-between;
   height: 100px;
   background-color: #adadad;
 }
@@ -53,12 +53,12 @@ lowest => #d3d3d3
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   height: 1100px;
   width: 100%;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: #8d8d8d;
 }
 
@@ -244,6 +244,12 @@ lowest => #d3d3d3
   background-color: white;
 }
 
+/* footer span */
+
+footer span {
+  background-color: #adadad;
+}
+
 /* Ethics & Privacy */
 
 .ethics-privacy {
@@ -424,8 +430,8 @@ lowest => #d3d3d3
   margin: auto;
   padding: 2% 0.01px 10px 0.1px;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .guide-span {
@@ -487,16 +493,50 @@ lowest => #d3d3d3
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: wrap;
-      flex-flow: wrap;
+  flex-flow: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 60%;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 75%;
   margin: auto;
+  height: 500px;
 }
 
 .footer__links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+footer ul {
+  background-color: #adadad;
+  list-style: circle;
+}
+
+.footer__topics__list ul {
+  background-color: #adadad;
+}
+
+.footer__topics__list a {
+  text-decoration: none;
+  background-color: #adadad;
+  color: white;
+  padding: none;
+}
+
+.footer__topics__list li {
+  padding: 0.01% 1.5%;
+  background-color: #adadad;
+}
+
+.browse-all-articles {
+  display: block;
+  margin: auto;
+  font-weight: bold;
+  text-align: center;
+  padding: 3%;
+}
+
+footer {
+  background-color: #adadad;
 }
