@@ -430,11 +430,39 @@ lowest => #d3d3d3
 }
 
 /* start smashing section */
+.newsletter {
+  background-color: #adadad;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.newsletter-desc {
+  background-color: #adadad;
+  text-align: center;
+  width: 80%;
+  line-height: 2.5em;
+  margin: 5% auto;
+}
+
+.subscribe-news-letter {
+  margin: 20% auto;
+  width: 300px;
+  height: 55px;
+  border-radius: 25px;
+  background-color: white;
+}
 
 .smashing-newsletter-div {
   margin: auto;
   width: 50%;
-  background-color: aqua;
+  background-color: #adadad;
+  height: 500px;
+  border-radius: 5px;
+  margin-bottom: 3%;
 }
 
 /* start footer section  */
