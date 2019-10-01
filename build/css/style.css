@@ -499,7 +499,7 @@ footer span {
   justify-content: center;
   width: 75%;
   margin: auto;
-  height: 500px;
+  height: 40vh;
 }
 
 .footer__links {
@@ -525,7 +525,8 @@ footer ul {
 }
 
 .footer__topics__list li {
-  padding: 0.01% 1.5%;
+  padding: 0.01%;
+  margin-left: 28px;
   background-color: #adadad;
 }
 
