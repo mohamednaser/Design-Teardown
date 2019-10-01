@@ -12,10 +12,10 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-line-pack: justify;
-  align-content: space-between;
+      align-content: space-between;
   height: 200px;
 }
 
@@ -34,12 +34,12 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
   height: 600px;
   width: 100%;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .latest-articles-item {
@@ -162,4 +162,12 @@
 .comment-6 {
   grid-column: 2 / 3;
   grid-row: 3 / 4;
+}
+
+/* start curated posts section */
+
+.curated-posts-sec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }

@@ -152,3 +152,9 @@
   grid-column: 2 / 3;
   grid-row: 3 / 4;
 }
+
+/* start curated posts section */
+
+.curated-posts-sec {
+  display: flex;
+}
