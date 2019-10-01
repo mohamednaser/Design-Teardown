@@ -520,7 +520,9 @@ footer {
   display: block;
   margin: auto;
   text-align: center;
-  width: 30%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  width: 39%;
   background-color: #adadad;
   color: white;
   line-height: 2em;

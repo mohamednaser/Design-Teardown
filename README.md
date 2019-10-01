@@ -36,8 +36,8 @@ This project was executed by the duo of :
 - [x] Create Featured Smashing Book Section 
 - [x] Create Curated Posts Section 
 - [x] Create Smashing Section  
-- [x] Use Semintaic HTML
-- [x] Use Flex in (footer articles , middle article image)
+- [x] Use Semantic HTML
+- [x] Use Flex and Grids
 - [x] check CSS with stylelint
 - [x] Check html with W3C validator
 - [x] Validate Readme file with markdown lint
@@ -56,4 +56,4 @@ Live version [here](www.google.com) [pending].
 
 ## ScreenShot For Page
 
-![Screen shot for live page](./src/imgs/full_page_screenshot.png)
+![Screen shot for live page](./build/imgs/full_page_screenshot.png)
