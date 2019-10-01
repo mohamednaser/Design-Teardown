@@ -5,7 +5,7 @@
   background: #eee;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* colors:
@@ -21,10 +21,10 @@ lowest => #d3d3d3
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -ms-flex-line-pack: justify;
-      align-content: space-between;
+  align-content: space-between;
   height: 100px;
   background-color: #adadad;
 }
@@ -53,12 +53,12 @@ lowest => #d3d3d3
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   height: 1100px;
   width: 100%;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   background-color: #8d8d8d;
 }
 
@@ -113,7 +113,7 @@ lowest => #d3d3d3
   width: 300px;
   height: 55px;
   border-radius: 25px;
-  background-color: #d3d3d3;
+  background-color: white;
 }
 
 /* latest articles section  */
@@ -382,12 +382,67 @@ lowest => #d3d3d3
   grid-row: 3 / 4;
 }
 
+/* featured smashing book section  */
+.features-smashing-book {
+  display: block;
+  width: 100%;
+  padding: 0.1% 0.01px 3% 10%;
+  background-color: #d3d3d3;
+}
+
+.featured-book-span {
+  padding-bottom: 1.8%;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #d3d3d3;
+  padding-top: 2%;
+}
+
+.featured-book-title {
+  padding-bottom: 1.8%;
+  display: block;
+  font-size: 2em;
+  font-weight: bolder;
+  text-decoration: underline;
+  background-color: #d3d3d3;
+}
+
+.featured-book-desc {
+  width: 63%;
+  background-color: #d3d3d3;
+}
+
 /* start curated posts section */
 
 .curated-posts-sec {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  padding: 2% 0.01px 10px 0.1px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.guide-span {
+  padding-bottom: 5%;
+  display: block;
+}
+
+.guide-title {
+  font-weight: bold;
+  padding-bottom: 5%;
+  width: 63%;
+  line-height: 1.3em;
+}
+
+.guides-list {
+  list-style: circle;
+  line-height: 2em;
 }
 
 /* start smashing section */
@@ -404,10 +459,10 @@ lowest => #d3d3d3
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: wrap;
-      flex-flow: wrap;
+  flex-flow: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   width: 60%;
   margin: auto;
 }
