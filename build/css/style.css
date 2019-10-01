@@ -171,3 +171,11 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+/* start smashing section */
+
+.smashing-newsletter-div {
+  margin: auto;
+  width: 50%;
+  background-color: aqua;
+}
