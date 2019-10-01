@@ -509,6 +509,7 @@ footer ul {
   font-weight: bold;
   text-align: center;
   padding: 3%;
+  color: white;
 }
 
 footer {
@@ -527,15 +528,21 @@ footer {
 
 .footer__links {
   display: flex;
-  width: 35%;
+  width: 40%;
   background-color: #adadad;
   text-align: center;
   margin: 1% auto;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer__links * {
   background-color: #adadad;
   text-decoration: none;
   color: white;
+}
+
+.footer__links li {
+  display: inline;
+  margin: 10px;
 }
