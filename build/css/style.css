@@ -59,23 +59,23 @@ lowest => #d3d3d3
   width: 100%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  background-color: #adadad;
+  background-color: #8d8d8d;
 }
 
 .latest-articles-item {
   width: 49.5%;
   height: 50%;
-  background-color: #adadad;
+  background-color: #8d8d8d;
   text-align: center;
   padding-top: 7.5%;
 }
 
 .lat-art-1 {
-  background-color: #878787;
+  background-color: #808080;
 }
 
 .lat-art-4 {
-  background-color: #878787;
+  background-color: #808080;
 }
 
 /* MemberShip div  */
