@@ -1,8 +1,10 @@
 # Design Teardown
 
-The New York Times Article Clone project is aimed at applying the knowledge of basic HTML and CSS structure to build an exact copy of New York Times Article Page.
+The Design Teardown project is a grayscale heat map of the smashing magazine website that indicates which elements have the greatest weight in the visual hierarchy.
 
-[Click to go to Original New York Times Article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
+[Click to go to Original Website ](https://www.smashingmagazine.com/)
+
+For inspiration, check out [this image from vanseodesign.com](https://web.archive.org/web/20170628134444/http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png) which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right. Your final product will look much like the site on the right.
 
 ## Authors
 
@@ -15,15 +17,25 @@ This project was executed by the duo of :
 
 - HTML
 - CSS
+- Gulp
+- NPM
+- auto prefixer
 - Flex & Grids
 - FontAwsome v5.11.2
 - MarkDown Syntax
 
 ## Done Work
 
-- [x] Create Fixed Header Nav Bar
-- [x] Create Article Div
-- [x] Crete footer div
+- [x] create gulpfile.js
+- [X] Create Nav Bar Section
+- [x] Create Latest Articles Section
+- [x] Crete MemberShip Section
+- [X] Create Ethics & Privacy Section
+- [X] Create Person of the week Section
+- [x] Create Readers Comments Section
+- [x] Create Featured Smashing Book Section 
+- [x] Create Curated Posts Section 
+- [x] Create Smashing Section  
 - [x] Use Semintaic HTML
 - [x] Use Flex in (footer articles , middle article image)
 - [x] check CSS with stylelint
@@ -35,7 +47,7 @@ This project was executed by the duo of :
 Open your git bash and cd to the location you'd like to put your files the run the command below.
 
 ```console
-git clone https://github.com/mvsmdrs/displaying-and-inputting-data.git
+git clone https://git@github.com:mohamednaser/Design-Teardown.git
 ```
 
 ## Live Version
@@ -44,4 +56,4 @@ Live version [here](www.google.com) [pending].
 
 ## ScreenShot For Page
 
-![Image of Yaktocat](./src/imgs/full_page_screenshot.png)
+![Screen shot for live page](./src/imgs/full_page_screenshot.png)
