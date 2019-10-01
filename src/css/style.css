@@ -44,7 +44,7 @@ lowest => #d3d3d3
 .latest-articles {
   display: flex;
   flex-direction: row;
-  height: 600px;
+  height: 1100px;
   width: 100%;
   flex-wrap: wrap;
   background-color: #8d8d8d;
@@ -55,7 +55,9 @@ lowest => #d3d3d3
   height: 50%;
   background-color: #8d8d8d;
   text-align: center;
-  padding-top: 7.5%;
+  font-weight: bold;
+  font-size: 37px;
+  padding-top: 13%;
 }
 
 .lat-art-1 {
