@@ -478,11 +478,7 @@ footer span {
   justify-content: center;
   width: 75%;
   margin: auto;
-  height: 40vh;
-}
-
-.footer__links {
-  display: flex;
+  height: 30vh;
 }
 
 footer ul {
@@ -517,4 +513,29 @@ footer ul {
 
 footer {
   background-color: #adadad;
+}
+
+.footer-paragraph {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  background-color: #adadad;
+  color: white;
+  line-height: 2em;
+}
+
+.footer__links {
+  display: flex;
+  width: 35%;
+  background-color: #adadad;
+  text-align: center;
+  margin: 1% auto;
+  flex-wrap: wrap;
+}
+
+.footer__links * {
+  background-color: #adadad;
+  text-decoration: none;
+  color: white;
 }
