@@ -26,6 +26,12 @@
   text-align: center;
 }
 
+.smashing-header-logo {
+  width: 100%;
+  padding-top: 2%;
+  padding-right: 1%;
+  border: none;
+}
 /* Latest articles */
 
 .latest-articles {
