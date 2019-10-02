@@ -53,7 +53,7 @@ git clone https://git@github.com:mohamednaser/Design-Teardown.git
 
 ## Live Version
 
-Live version [here](https://mohamednaser.github.io/Design-Teardown/) [pending].
+Live version [here](https://mohamednaser.github.io/Design-Teardown/).
 
 ## ScreenShot For Page
 
